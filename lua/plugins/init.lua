@@ -21,7 +21,8 @@ return {
    	opts = {
    		ensure_installed = {
    			"lua-language-server", "stylua",
-   			"html-lsp", "css-lsp" , "prettier", "gopls"
+   			"html-lsp", "css-lsp" , "prettier", 
+        "gopls", "svelte"
    		},
    	},
    },
@@ -31,8 +32,9 @@ return {
    	opts = {
    		ensure_installed = {
    			"vim", "lua", "vimdoc",
-        "html", "css"
+        "html", "css", "go" ,"svelte"
    		},
+      compilers = {"clang", "gcc"}
    	},
    },
 }

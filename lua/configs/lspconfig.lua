@@ -28,3 +28,17 @@ lspconfig.gopls.setup{
   on_init = on_init,
   capabilities = capabilities,
 }
+
+--svelte
+lspconfig.svelte.setup{
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities
+}
+
+--lua
+lspconfig.lua_ls.setup{
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities
+}
