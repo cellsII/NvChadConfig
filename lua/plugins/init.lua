@@ -34,7 +34,6 @@ return {
    			"vim", "lua", "vimdoc",
         "html", "css", "go" ,"svelte"
    		},
-      compilers = {"clang", "gcc"}
    	},
    },
 }
